@@ -18,8 +18,7 @@ const mongoose = require('mongoose');
 
 //security middleware implement
 app.use(cors({
-    origin: 'http://http://localhost:5173',
-    'https://66c0f91ef1bcf7b9560d5f9d--jovial-cranachan-d2508a.netlify.app'
+    origin: '*',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
