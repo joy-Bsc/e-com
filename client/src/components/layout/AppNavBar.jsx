@@ -40,7 +40,7 @@ const AppNavBar = () => {
               <span>
                 <span className="f-12">
                   <i className="bi bi-envelope"></i>
-                  Support@planB.com
+                  Support Joys's Shop
                 </span>
                 <span className="f-12">
                   <i className="bi bi-telephone"></i>
