@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+:root {
+    /* main colors */
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --themeColor: #007bff;
+    --themeColorLight: #007bff;
+    --themeColorDark: #007bff;
+    --themeColorDarker: #007bff;
+    --themeColorDarkest: #007bff;
+    --themeColorLighter: #007bff;
+    --themeColorLightest: #007bff;
+    --themeColorLightest: #007bff;
+    --themeColorLightest: #007bff;
+    --themeLightColor: #56d598;
+    --secondaryColor: #6c757d;
+    --themeDarkColor: #007bff;
+    --themeWhiteColor: #ffffff;
+
+
+    /* greyscale colors */
+
+    --lightColor:#9EA5B8;
+    --lightDeepColor:#F4F5F8;
+    --lightDeepColor2:#F8F9FC;
+    --lightDeepColor3:#F8F9FC;
+    --lightDeepColor4:#F8F9FC;
+    --darkColor: #6C727F;
+    --darkDeepColor: #3E4C59;
+    --darkDeepColor2: #3E4C59;
+    --darkDeepColor3: #3E4C59;
+    --darkDeepColor4: #080808;
+
+    /* Typography */
+
+    --headline-1: 52px;
+    --headline-2: 42px;
+    --headline-3: 32px;
+    --headline-4: 24px;
+    --bodyXLarge: 20px;
+    --bodyLarge: 18px;
+    --bodyMedium: 16px;
+    --bodySmall: 14px;
+    --bodyXSmall: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: var(--lightDeepColor2);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif !important;
+    font-size: 16px;
+}
+
+.bg-custom {
+    background-color: #00ffea; 
+  }
+  .toggle-bg-open {
+    background-color: #78f800f6; 
+}
+.product-img-sm{
+    width:50px;
+    height:auto;
+    border-radius: 4px;
+}
+
+.pay-img{
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+.pay-img:hover{
+    -webkit-filter: brightness(0.8);
+    filter: brightness(0.8);
+}
+
+.section{
+    margin-top:80px !important;
+    margin-bottom: 40px !important;
+}
+
+.section-bottom{
+    margin-top: 80px !important;
+}
+
+.f-12{
+    font-size: 12px;
+}
+
+.bg-light{
+    background-color: var(--lightDeepColor2) !important;
+}   
+
+.bg-success{
+    background: var(--themeColor) !important;
+}
+
+.btn-success{
+    border-color: var(--themeColor) !important;
+    background: var(--themeColor) !important;
+}
+.btn-outline-success{
+    border-color: var(--themeColor) !important;
+    
+}
+
+.form-label{
+    font-size: 12px !important;
+}
+
+.card{
+    border:none;
+}
+
+.headline-1{
+    font-size: var(--headline-1);
+}
+
+.headline-2{
+    font-size: var(--headline-2);
+}
+
+.headline-3{
+    font-size: var(--headline-3);
+}
+
+.headline-4{
+    font-size: var(--headline-4);
+}
+
+.bodyXLarge{
+    font-size: var(--bodyXLarge);
+}
+
+.bodyLarge{
+    font-size: var(--bodyLarge);
+}
+
+.bodyMedium{
+    font-size: var(--bodyMedium);
+}
+
+.bodySmall{
+    font-size: var(--bodySmall);
+}
+
+.bodyXSmall{
+    font-size: var(--bodyXSmall);
+}
+
+.hero-bg{
+    background: url(../images/hero-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.nav-pills > li > button.active{
+    background: var(--themeColor) !important;
+    color: var(--themeWhiteColor) !important;
+}
+.nav-pills > li > button{
+    background: var(--lightDeepColor2) !important;
+    color: var(--darkColor) !important;
+}
+
+
+.col-xs-5-cols,
+.col-sm-5-cols,
+.col-md-5-cols,
+.col-lg-5-cols {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5-cols {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5-cols {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.col-xs-8r,
+.col-sm-8r,
+.col-md-8r,
+.col-lg-8r {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}  
+
+.col-xs-8r{
+    width:12.5%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-8r {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-8r {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-8r {
+        width: 12.5%;
+        float: left;
+    }
+}
+.nav-link-custom {
+    margin-right: 15px; /* Adjust the space as needed */
+}
